@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfGifAnimation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        xmlns:local="clr-namespace:WpfGifAnimation"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Image x:Name="Anim1" gif:ImageBehavior.RepeatBehavior="Forever" gif:ImageBehavior.AnimatedSource="Images\programming-windows-forms.gif" HorizontalAlignment="Left" Height="367" VerticalAlignment="Top" Width="709" RenderTransformOrigin="-1.954,-0.574" Source="Images/programming-windows-forms.gif"/>
+    </Grid>
+</Window>
